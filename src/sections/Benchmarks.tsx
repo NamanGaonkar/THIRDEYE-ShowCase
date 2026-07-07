@@ -7,7 +7,6 @@ export default function Benchmarks() {
     { name: "Person", precision: "P 78%", recall: "R 75%", score: "76.5%" }
   ];
 
-  // Exact target ratio vector calculations for high fidelity progress tracking
   const percentageValue = 63.2;
   const radiusSize = 54; 
   const mathCircumference = 2 * Math.PI * radiusSize;
@@ -34,23 +33,20 @@ export default function Benchmarks() {
           <span className="text-foreground/30 text-[10px] font-mono">Generated: May 14, 2026</span>
         </div>
 
-        {/* Bento Data Grid Core Layout Framework with Purple Accent Lighting on Hover */}
+        {/* Bento Data Grid Framework with Enhanced Interactive Pop-Out Actions */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-5">
           
-          {/* Rebuilt High-Fidelity Circular Gauge Component */}
-          <div className="lg:col-span-4 bg-[#07060c]/80 border border-white/[0.03] rounded-2xl p-6 sm:p-8 flex flex-col items-center justify-center shadow-2xl relative overflow-hidden group transition-all duration-300 hover:border-[#a855f7]/30 hover:shadow-[0_0_40px_rgba(168,85,247,0.04)] min-h-[260px] sm:min-h-[300px]">
+          {/* Radial Meter Matrix Gauge Card */}
+          <div className="lg:col-span-4 bg-[#07060c]/80 border border-white/[0.03] rounded-2xl p-6 sm:p-8 flex flex-col items-center justify-center relative overflow-hidden group transform transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.01] hover:border-[#a855f7]/40 hover:shadow-[0_0_30px_rgba(168,85,247,0.08)] min-h-[260px] sm:min-h-[300px] cursor-pointer">
             <div className="absolute inset-0 bg-gradient-to-t from-[#a855f7]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             
             <div className="relative w-40 h-40 flex items-center justify-center">
-              {/* Unified SVG Vector Rendering Ring using Native Site Palette Tokens */}
               <svg className="w-full h-full transform -rotate-90 select-none pointer-events-none" viewBox="0 0 120 120">
-                {/* Background Muted Track */}
                 <circle 
                   cx="60" cy="60" r={radiusSize} 
                   className="stroke-white/[0.03] fill-transparent" 
                   strokeWidth="4" 
                 />
-                {/* Active Progress Segment Matching Deep Violet Color Token */}
                 <circle 
                   cx="60" cy="60" r={radiusSize} 
                   className="stroke-[#a855f7] fill-transparent transition-all duration-1000 ease-out" 
@@ -72,39 +68,46 @@ export default function Benchmarks() {
             </div>
           </div>
 
-          {/* Combined Data Cells with Purple Interactions */}
+          {/* Combined Data Tracking Cells with Fluid Pop-Out & Purple Hover Glows */}
           <div className="lg:col-span-8 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-5">
             
-            <div className="sm:col-span-2 bg-[#07060c]/80 border border-white/[0.03] rounded-2xl p-6 flex flex-col justify-between shadow-2xl transition-all duration-300 hover:border-[#a855f7]/20">
-              <span className="text-foreground/40 text-[10px] font-mono tracking-widest block uppercase">DATASET VOLUME</span>
-              <div className="my-4">
-                <span className="text-3xl sm:text-4xl font-bold font-general tracking-tight text-[#fcd34d] block">
+            {/* Box 1: Dataset Volume */}
+            <div className="sm:col-span-2 bg-[#07060c]/80 border border-white/[0.03] rounded-2xl p-6 flex flex-col justify-between relative overflow-hidden group transform transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.01] hover:border-[#a855f7]/40 hover:shadow-[0_0_30px_rgba(168,85,247,0.06)] cursor-pointer">
+              <div className="absolute inset-0 bg-gradient-to-tr from-[#a855f7]/2 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <span className="text-foreground/40 text-[10px] font-mono tracking-widest block uppercase relative z-10">DATASET VOLUME</span>
+              <div className="my-4 relative z-10">
+                <span className="text-3xl sm:text-4xl font-bold font-general tracking-tight text-[#fcd34d] block group-hover:text-white transition-colors duration-300">
                   ≈ 10,432 <span className="text-xs font-light text-foreground/40 ml-1">images</span>
                 </span>
               </div>
-              <p className="text-foreground/30 text-[11px] font-light">Total annotated training images across environment models.</p>
+              <p className="text-foreground/30 text-[11px] font-light relative z-10">Total annotated training images across environment models.</p>
             </div>
 
-            <div className="bg-[#07060c]/80 border border-white/[0.03] rounded-2xl p-6 flex flex-col justify-between shadow-2xl transition-all duration-300 hover:border-[#a855f7]/20">
-              <span className="text-foreground/40 text-[10px] font-mono tracking-widest block uppercase">EPOCHS</span>
-              <div className="my-4">
-                <span className="text-3xl sm:text-4xl font-bold font-general text-foreground block">30</span>
+            {/* Box 2: Epochs */}
+            <div className="bg-[#07060c]/80 border border-white/[0.03] rounded-2xl p-6 flex flex-col justify-between relative overflow-hidden group transform transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.01] hover:border-[#a855f7]/40 hover:shadow-[0_0_30px_rgba(168,85,247,0.06)] cursor-pointer">
+              <div className="absolute inset-0 bg-gradient-to-tr from-[#a855f7]/2 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <span className="text-foreground/40 text-[10px] font-mono tracking-widest block uppercase relative z-10">EPOCHS</span>
+              <div className="my-4 relative z-10">
+                <span className="text-3xl sm:text-4xl font-bold font-general text-foreground block group-hover:text-[#a855f7] transition-colors duration-300">30</span>
                 <span className="text-xs font-light text-foreground/40 block mt-1">epochs complete</span>
               </div>
             </div>
 
-            <div className="sm:col-span-2 bg-[#07060c]/80 border border-white/[0.03] rounded-2xl p-6 flex flex-col justify-between shadow-2xl min-h-[130px] transition-all duration-300 hover:border-[#a855f7]/20">
-              <span className="text-foreground/40 text-[10px] font-mono tracking-widest block uppercase">ARCHITECTURE LAYER</span>
-              <div className="mt-4">
-                <h4 className="text-lg sm:text-xl font-semibold tracking-wide text-foreground">YOLOv26 Core Architecture</h4>
+            {/* Box 3: Architecture Layer */}
+            <div className="sm:col-span-2 bg-[#07060c]/80 border border-white/[0.03] rounded-2xl p-6 flex flex-col justify-between min-h-[130px] relative overflow-hidden group transform transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.01] hover:border-[#a855f7]/40 hover:shadow-[0_0_30px_rgba(168,85,247,0.06)] cursor-pointer">
+              <div className="absolute inset-0 bg-gradient-to-br from-[#a855f7]/2 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <span className="text-foreground/40 text-[10px] font-mono tracking-widest block uppercase relative z-10">ARCHITECTURE LAYER</span>
+              <div className="mt-4 relative z-10">
+                <h4 className="text-lg sm:text-xl font-semibold tracking-wide text-foreground group-hover:text-white transition-colors duration-300">YOLOv26 Core Architecture</h4>
               </div>
             </div>
 
-            {/* Fixed: Updated label target explicitly map to configuration keys */}
-            <div className="bg-[#07060c]/80 border border-white/[0.03] rounded-2xl p-6 flex flex-col justify-between shadow-2xl transition-all duration-300 hover:border-[#a855f7]/20">
-              <span className="text-foreground/40 text-[10px] font-mono tracking-widest block uppercase">MAP50</span>
-              <div className="mt-4">
-                <span className="text-xl sm:text-2xl font-bold text-[#a855f7] block">63.2%</span>
+            {/* Box 4: mAP50 */}
+            <div className="bg-[#07060c]/80 border border-white/[0.03] rounded-2xl p-6 flex flex-col justify-between relative overflow-hidden group transform transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.01] hover:border-[#a855f7]/40 hover:shadow-[0_0_30px_rgba(168,85,247,0.06)] cursor-pointer">
+              <div className="absolute inset-0 bg-gradient-to-br from-[#a855f7]/2 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <span className="text-foreground/40 text-[10px] font-mono tracking-widest block uppercase relative z-10">MAP50</span>
+              <div className="mt-4 relative z-10">
+                <span className="text-xl sm:text-2xl font-bold text-[#a855f7] block group-hover:scale-105 transition-transform duration-300">63.2%</span>
               </div>
             </div>
 
@@ -112,7 +115,7 @@ export default function Benchmarks() {
 
         </div>
 
-        {/* Per-Class Evaluation Section with Scaled Typography handles Mobile viewports */}
+        {/* Per-Class Evaluation Section with High-Fidelity Fluid Pop-Out States */}
         <div className="w-full flex flex-col space-y-4 pt-4">
           <h4 className="font-general text-[11px] uppercase tracking-wider text-foreground/40 font-semibold">Per-Class Performance Metrics</h4>
           
@@ -120,13 +123,13 @@ export default function Benchmarks() {
             {classes.map((cls, idx) => (
               <div 
                 key={idx} 
-                className="bg-[#07060c]/80 border border-white/[0.03] rounded-xl p-5 flex flex-col space-y-3 shadow-xl hover:border-[#a855f7]/30 transition-all duration-300"
+                className="bg-[#07060c]/80 border border-white/[0.03] rounded-xl p-5 flex flex-col space-y-3 relative overflow-hidden group transform transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:border-[#a855f7]/40 hover:shadow-[0_4px_20px_rgba(168,85,247,0.05)] cursor-pointer"
               >
-                <div className="flex justify-between items-baseline">
-                  <span className="font-general text-sm sm:text-base font-medium text-foreground">{cls.name}</span>
+                <div className="flex justify-between items-baseline relative z-10">
+                  <span className="font-general text-sm sm:text-base font-medium text-foreground group-hover:text-white transition-colors duration-200">{cls.name}</span>
                   <span className="text-xs font-mono text-[#fcd34d] font-bold">{cls.score}</span>
                 </div>
-                <div className="flex items-center space-x-4 text-[11px] font-mono text-foreground/40">
+                <div className="flex items-center space-x-4 text-[11px] font-mono text-foreground/40 relative z-10">
                   <span className="flex items-center"><Check className="w-3 h-3 text-[#6366f1] mr-1" />{cls.precision}</span>
                   <span className="flex items-center"><Check className="w-3 h-3 text-[#a855f7] mr-1" />{cls.recall}</span>
                 </div>
