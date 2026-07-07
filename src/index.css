@@ -10,13 +10,18 @@
   --hero-sub: 40 6% 82%;
 }
 
-body {
+/* Fixed: Added strict viewport isolation parameters to stop phone side-sliding entirely */
+html, body {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
   font-family: "Geist Sans", sans-serif;
-  overflow-x: hidden;
   margin: 0;
   padding: 0;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  touch-action: pan-y; /* Allows vertical scrolling but completely disables side gestures */
 }
 
 /* Linear Cross-Section Section Fade Blending Mask */
